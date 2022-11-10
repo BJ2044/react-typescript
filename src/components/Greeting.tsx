@@ -1,10 +1,10 @@
-interface GrettingProps {
+interface GreetingProps {
     firstName: string,
-    lastName: string,
-}
-
-export default function Greeting({ firstName, lastName }: ) {
+    lastName: string
+  }
+  
+  export default function Greeting({ firstName, lastName }: GreetingProps) {
     return (
-        <p>Wecome {firstName} {lastName}.</p>
+      <p>Welcome {firstName} {lastName}.</p>
     )
-}
+  } 
